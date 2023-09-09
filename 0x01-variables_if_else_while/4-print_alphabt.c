@@ -9,13 +9,14 @@ int main(void)
 	char upper = 'a';
 
 	while (upper <= 'z')
-		upper++;
+
 	{
 		if (upper != 'e' && upper != 'q')
 		{
 			putchar(upper);
 		}
-		putchar('\n');
+		upper++;
 	}
+	putchar('\n');
 	return (0);
 }
