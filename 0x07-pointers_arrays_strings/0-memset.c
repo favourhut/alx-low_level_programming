@@ -6,7 +6,7 @@
  * @b: character to be copied
  * @n: number of times to copy b
  *
- * Return: Always 0
+ * Return: Pointer to the memory area s
  */
 
 char *_memset(char *s, char b, unsigned int n)
