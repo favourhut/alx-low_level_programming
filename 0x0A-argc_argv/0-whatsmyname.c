@@ -9,14 +9,10 @@
  */
 
 int main(int argc, char *argv[])
-
 {
-	if (argc != 2)
-	{
-		fprintf(stderr, "%s\n", argv[0]);
-		return 1;
-	}
-	printf("%s\n", argv[1]);
+	(void) argc;
+
+	printf("%s\n", argv[0]);
 	return (0);
 }
 
