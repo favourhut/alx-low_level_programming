@@ -8,7 +8,7 @@
  * Return: nothing
  */
 
- int main(int agrc, char *agrv[])
+int main(int agrc, char *agrv[])
 
 {
 	int i;
