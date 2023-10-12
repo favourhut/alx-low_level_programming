@@ -2,14 +2,14 @@
 
 /**
  * main - the main of the program
- * This program would print the name 
+ * This program would print the name
  * of the file it was compiled from
- * followed by a new line even when the 
+ * followed by a new line even when the
  * name is changed
  * Return: zero for success
  */
 
-int main()
+int main(void)
 {
 	printf("%s\n", __FILE__);
 	return (0);
