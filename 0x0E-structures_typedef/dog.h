@@ -14,6 +14,7 @@ struct dog
 	float age;
 	char *owner;
 };
+
 /**
  * dog_t - typedef for a dag stucture
  */
