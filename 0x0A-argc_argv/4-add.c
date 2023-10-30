@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 
-/*
+/**
  * main - This program prints the sum of positive numbers
- * argc: argument counts variable
- * argv: argument vector variable
+ * @argc: argument counts variable
+ * @argv: argument vector variable
  * Return: 0
  */
 
