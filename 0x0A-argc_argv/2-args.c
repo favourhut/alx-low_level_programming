@@ -17,7 +17,7 @@ int main(int agrc, char *agrv[])
 
 	for (i = 0; i < agrc; i++)
 	{
-		printf("%s\n", agrv[i]); 
+		printf("%s\n", agrv[i]);
 		/*Only print one argument per line, ending with a new line*/
 	}
 	return (0);
