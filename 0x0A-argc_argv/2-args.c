@@ -11,11 +11,14 @@
 int main(int agrc, char *agrv[])
 
 {
+	/* i need to declare a variable for looping */
+
 	int i;
 
 	for (i = 0; i < agrc; i++)
 	{
-		printf("%s\n", agrv[i]);
+		printf("%s\n", agrv[i]); 
+		/*Only print one argument per line, ending with a new line*/
 	}
 	return (0);
 }
