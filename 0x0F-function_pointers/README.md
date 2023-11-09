@@ -1,1 +1,1 @@
-0x0F. C - Function pointers and how to use them
+this dir is all about 0x0F-function_pointers
