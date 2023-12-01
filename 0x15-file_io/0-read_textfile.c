@@ -24,11 +24,10 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	}
 	size1 = read(filedec, temp_mem, letters);
 	close(filedec);
-	
 	if (size1 == -1)
 	{
-		free (temp_mem);
-		return(0);
+		free(temp_mem);
+		return (0);
 	}
 
 	size2 = write(STDOUT_FILENO, temp_mem, size1);
@@ -36,5 +35,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	if (size1 != size2)
 	return (0);
-	return (size2);	
+	return (size2);
 }
